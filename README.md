@@ -33,3 +33,11 @@ fromMap 메서드을 사용하였습니다.
 lib 아래에 widgets 폴더를 생성한 후 화면에 보여지는 위젯들을 위한 news_widget.dart 파일을 생성합니다.
 models에 정의된 클래스의 타입으로 객체를 생성한 후에 객체의 데이터를 텍스 위젯을 사용하여 UI를 생성하였습니다.
 ```
+
+## news_provider 생성
+```
+lib 아래에 providers 폴더를 생성한 후 웹에서 데이터를 가져오는 부분인 news_provider.dart 파일을 생성합니다.
+getNews() 메서드를 생성하여 뉴스를 조회하는 기능을 넣어주었습니다. 다른 REST Api를 구현하고자 한다,
+get, post, delete, put 등에 대응하는 메서드를 생성해서 구현해주면 됩니다. 
+이번 프로젝트에서는 뉴스를 조회하는 기능만을 가지고 있기에 getNews()만 구현하였습니다.
+```
