@@ -41,3 +41,12 @@ getNews() 메서드를 생성하여 뉴스를 조회하는 기능을 넣어주�
 get, post, delete, put 등에 대응하는 메서드를 생성해서 구현해주면 됩니다. 
 이번 프로젝트에서는 뉴스를 조회하는 기능만을 가지고 있기에 getNews()만 구현하였습니다.
 ```
+
+## main.dart 수정
+```
+news_widget에 provider를 추가한 후 위젯을 화면에 뿌려주는 news_widget 클래스를 main의 첫 페이지에서
+호출하도록 클래스를 수정한 후에 에뮬레이터를 실행하였고 newsapi에서 현재 가장 최신화된 한국 뉴스의 
+headline 즉 제목(title)와 부제(description)을 서버에 요청하고 데이터를 받아와서 앱에서 보여주는 뉴스앱
+프로젝트를 완성하였습니다.
+```
+![image](https://user-images.githubusercontent.com/58906858/212888879-67dc83b3-34d0-4a4b-9c25-d8c93ce92814.png)
