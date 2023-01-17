@@ -20,3 +20,10 @@ newsapi.org 홈페이지에서 회원가입을 하면 API 키를 바로 발급�
 terminal에 dart pub add http, flutter pub add http 명령어를 주입하여 라이브러리를 추가하고
 프로젝트에 의존성을 추가합니다.
 ```
+
+## news_model 생성
+```
+lib 아래에 models 폴더를 생성한 후 model 관리(데이터 구조 정의)를 위한 news.dart 파일을 생성합니다.
+newsapi의 title와 description 필드의 데이터를 요청합니다. json 형태를 object 형태로 파싱하기 위해서
+fromMap 메서드을 사용하였습니다.
+```
