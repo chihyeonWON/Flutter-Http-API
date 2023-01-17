@@ -27,3 +27,9 @@ lib 아래에 models 폴더를 생성한 후 model 관리(데이터 구조 정�
 newsapi의 title와 description 필드의 데이터를 요청합니다. json 형태를 object 형태로 파싱하기 위해서
 fromMap 메서드을 사용하였습니다.
 ```
+
+## news_widget 생성
+```
+lib 아래에 widgets 폴더를 생성한 후 화면에 보여지는 위젯들을 위한 news_widget.dart 파일을 생성합니다.
+models에 정의된 클래스의 타입으로 객체를 생성한 후에 객체의 데이터를 텍스 위젯을 사용하여 UI를 생성하였습니다.
+```
