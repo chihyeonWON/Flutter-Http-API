@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:http_tutorial/models/news.dart';
+import '../models/news.dart';
 import 'package:http/http.dart' as http;
 
 class NewsProviders{
