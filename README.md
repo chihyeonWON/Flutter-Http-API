@@ -14,3 +14,9 @@ Flutter의 http 라이브러리를 사용해서 인터넷의 다양한 서버에
 newsapi.org 홈페이지에서 회원가입을 하면 API 키를 바로 발급해줍니다.
 ```
 ![image](https://user-images.githubusercontent.com/58906858/212847304-8368567d-8bc5-4a62-815a-c579715cad28.png)
+
+## dart, flutter에 http 의존성 추가
+```
+terminal에 dart pub add http, flutter pub add http 명령어를 주입하여 라이브러리를 추가하고
+프로젝트에 의존성을 추가합니다.
+```
