@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import '../providers/news_provider.dart';
 
 import '../models/news.dart';
 
@@ -15,13 +16,19 @@ class _NewsScreenState extends State<NewsScreen> {
 
   List<News> news = [];
   bool isLoading = true;
+  NewsProviders newsProvider = NewsProviders();
 
+  Future initNews() async {
+    news = await newsProvider.getNews();
+  }
 
   @override
   void initState() {
     super.initState();
-    setState(() {
-      isLoading = false;
+    initNews().then((_) {
+      setState(() {
+        isLoading = false;
+      });
     });
   }
 
