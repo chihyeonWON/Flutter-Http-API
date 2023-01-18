@@ -40,10 +40,10 @@ class _NewsScreenState extends State<NewsScreen> {
       ),
       body: isLoading ? Center(child: const CircularProgressIndicator(),) :
       GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 4,
-          childAspectRatio: 2 / 3,
-          crossAxisSpacing: 20,
-          mainAxisSpacing: 20
+          crossAxisCount: 2,
+          childAspectRatio: 1 / 3,
+          crossAxisSpacing: 5,
+          mainAxisSpacing: 5,
       ),
           itemCount: news.length,
           itemBuilder: (context, index) {
@@ -51,8 +51,10 @@ class _NewsScreenState extends State<NewsScreen> {
               padding: EdgeInsets.all(20),
               child: Column(
                 children: [
-                  Text(news[index].title),
-                  Text(news[index].content),
+                  Text(news[index].title,
+                      style:TextStyle(
+                          fontWeight: FontWeight.bold)),
+                  Text(news[index].content)
                 ],
               ),
             );
