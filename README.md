@@ -1,5 +1,12 @@
 # httpnews
-![image](https://user-images.githubusercontent.com/58906858/212889023-20cb6da9-63ca-44b6-b64a-657c791c3835.png)
+세상을 보는 창은 작은 스마트폰에서 시작한다.
+
+```
+개발 툴 : Flutter
+개발 언어 : Dart
+개발 일시 : 2023-03-01 - ~ 
+개발자 : Won Chi Hyeon
+```
 
 ## Flutter Http란
 ```
