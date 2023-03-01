@@ -34,7 +34,9 @@ class _NewsScreenState extends State<NewsScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text("한국을 보는 창"),
+        backgroundColor: Colors.black,
+        title: Text("한국을 보는 작은 창", style:TextStyle(fontWeight: FontWeight.bold,)),
+        centerTitle:true,
       ),
       body: isLoading
           ? Center(
